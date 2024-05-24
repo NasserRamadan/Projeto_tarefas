@@ -6,7 +6,6 @@ class Tarefa {
   estado: enums.Status
   descricao: string
   id: number
-  status: enums.Status | undefined
 
   constructor(
     titulo: string,
